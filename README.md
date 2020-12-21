@@ -19,5 +19,6 @@
   
   <img width="412" alt="Classification Report" src="https://user-images.githubusercontent.com/68725398/102740584-33ad3000-431e-11eb-93c7-1a983394347f.png">
 
+  The above is the classification report for the dataset, along with the accuracy score. The f1-score is quite low for True Positives (7+ for Ratings Category) for the dataset which leads me to think that the model might not be fully accurate, probably due to the amount of data that is truly avaialble after the preprocessing cleanup. It is however, quite accurate for the below 7 category, most likely also due to the data amount leaning towards that as a majority.
 
   
