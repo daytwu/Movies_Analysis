@@ -3,7 +3,9 @@
 ## Communication Protocols
 
 ## Members
+
 Dayton
+
 Upama
 
 ## Zoom meetings
