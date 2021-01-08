@@ -5,6 +5,7 @@
   Members
    - Dayton
    - Upama
+   - Montgomery
 
 ### Zoom meetings
 - Zoom meetings are done every other day, usually 3 to 4 days a week, from 30 mins to 60 mins each.
@@ -14,3 +15,4 @@
 ### Slack communications
 - Discussed, shared and reviewed datasets on Slack channel communications
 - These are done on the days of the zoom meetings, usually followed up on before and afterwards
+- Regular communication done every night time (time zone difference between Montgomery and others) on Slack
