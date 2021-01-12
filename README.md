@@ -41,8 +41,10 @@ The Regression Results below show some of the statistically-significant features
 
 ## RUNTIME:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20Regression%20Results.png>
+
 ## GENRES:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20Regression%20Results.png>
+
 ## DIRECTORS:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20Regression%20Results%20.png>
 
