@@ -26,7 +26,7 @@ To determine which variable(s) had the most impact on IMDb movie ratings through
 
 
 ## Statistically-Significant factors of IMDb Rating:
-Of the original data frame, several rows have been dropped during the cleanup. There were countless null values in the entire dataset. These were dropped to maintain a good variety and ensure the dataset had processable value. We also narrowed it down to focus on U.S. movies only and fill in the missing IMDb rating data from reelgood.com with web scraping. 
+Of the original data frame, several rows have been dropped during the cleanup. There were countless null values in the entire dataset. These were dropped to maintain a good variety and ensure the dataset had processable value. We also did web scraping to fill in the missing IMDb rating data from reelgood.com.
 
 
 The analysis found that each of the following had a significant an impact on the IMDb Rating:
@@ -36,4 +36,4 @@ The analysis found that each of the following had a significant an impact on the
 • Directors
 
 ## Database
-PostgreSQL has been used to merge the dataset by their importance showcasing the respective platforms. 
+PostgreSQL has been used to merge the dataset by their importance showcasing the respective relationship with an ER Diagram. 
