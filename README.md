@@ -39,11 +39,11 @@ The analysis found that each of the following had a significant an impact on the
 
 The Regression Results below show some of the statistically-significant features of  IMDb movie ratings:
 
-RUNTIME:
+## RUNTIME:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20Regression%20Results.png>
-GENRES:
+## GENRES:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20Regression%20Results.png>
-DIRECTORS:
+## DIRECTORS:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20Regression%20Results%20.png>
 
 ## Database
