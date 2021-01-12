@@ -22,7 +22,9 @@ These are done on the days of the zoom meetings, usually followed up on before a
  In this project we are provided with a dataset from Kaggle on randomly-selected-movies from IMDb which were showcased on various platforms such as Netflix, Hulu, Prime Video, and Disney. We are asked to explore the data and build a machine learning model. A linear regression model is used to show the relationship between the features and it’s impact on the IMDb ratings.  Our goal was to identify the statistically-significant features of movie ratings. 
 
 ## Goal
-To determine which variable(s) had the most impact on IMDb movie ratings through a linear regression model.
+To determine which variable(s) had the most impact on IMDb movie ratings through a regression model. The heatmap below shows some of the statistically-significant features of movie ratings:
+
+<img src= "https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Heatmap.png">
 
 
 ## Statistically-Significant factors of IMDb Rating:
@@ -31,9 +33,19 @@ Of the original data frame, several rows have been dropped during the cleanup. T
 
 The analysis found that each of the following had a significant an impact on the IMDb Rating:
 
-• Runtime
-• Genre
-• Directors
+- Runtime
+- Genre
+- Directors
+
+The Regression Results below show some of the statistically-significant features of  IMDb movie ratings:
+
+RUNTIME:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20Regression%20Results.png>
+GENRES:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20Regression%20Results.png>
+DIRECTORS:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20Regression%20Results%20.png>
 
 ## Database
 PostgreSQL has been used to merge the dataset by their importance showcasing the respective relationship with an ER Diagram. 
+
