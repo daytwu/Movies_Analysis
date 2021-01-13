@@ -40,13 +40,27 @@ The analysis found that each of the following had a significant an impact on the
 The Regression Results below show some of the statistically-significant features of  IMDb movie ratings:
 
 ## RUNTIME:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20Regression%20Results.png>
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20OLS.png>
 
 ## GENRES:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20Regression%20Results.png>
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20OLS.png>
 
 ## DIRECTORS:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20Regression%20Results%20.png>
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20OLS%20.png>
+
+
+The following shows data plot and a linear regression model fit:
+
+## RUNTIME:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20%26%20IMDb.png>
+
+## GENRES:
+<img src = https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20%26%20IMDb.png>
+
+## DIRECTORS: 
+<img src = https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20%26%20IMDb.png>
+
+
 
 ## Database
 PostgreSQL has been used to merge the dataset by their importance showcasing the respective relationship with an ER Diagram. 
