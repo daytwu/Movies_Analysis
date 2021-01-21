@@ -29,7 +29,6 @@
         h5 {text-align: center; color:pink; font-size: 2em;}
         h6 {text-decoration-line: underline; text-align: center; color: white; font-size: 2em;}
         
-
         
     </style> -->
 
@@ -44,7 +43,7 @@
         <!-- SLIDESHOW-->
         <p align="center"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRaNeQqQdrKNOPb0JvFjpevKIYvCSAlGcz2zD4zqTQl3q5ve0O0pUkiMTyVbhWGdsWgOyXl_fS24BlH/embed?start=false&loop=false&delayms=5000" frameborder="0" width="560" height="369" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
        
-        <div id='myBtnContainer'>
+        <div class='myBtnContainer' id='myBtnContainer'>
             <button class='btn active' onclick="filterSelection('all')">Show all</button>
             <button class='btn' onclick="filterSelection('randForest')">Random Forest</button>
             <button class='btn' onclick="filterSelection('linearRegress')">Linear Regression></button>
@@ -62,45 +61,50 @@
 
         <!-- LINEAR REGRESSION MODEL DISPLAY -->
 
-        <h3>Linear Regression on Runtime, Genres, & Directors</h6>
+        <!-- <h3>Linear Regression on Runtime, Genres, & Directors</h6> -->
 
         <!-- <p align="center"><img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Genres%20OLS.png" style="width:30.5%"></p>
         <p align="center"><img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Directors%20OLS.png" style="width:30%"></p> -->
 
         <div class="row">
-            <div class="column randForest">
-                <div class='content'>
-                <h3>Random Forest Model</h3>
-                <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Feature_importances%20-%20updated.png" style="width:100%"></p>
-                <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Accuracy_Score_Updated.png" style="width:100%"></p>
-                </div>
-            </div>
-            <!-- <h4> Feature Importance </h4>
-        <h4> Accuracy Score </h5> -->
-      
 
-            <div class="column linearRegress">
-                <div class='content'>
-                <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Runtime%20OLS.png" style="width:100%"></p>
+                <div class="column randForest">
+                    <div class='content'>
+                    <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Feature_importances%20-%20updated.png" style="width:100%"></p>
+                    </div>
                 </div>
-            </div>
-            <div class="column linearRegress">
+                <div class='column randForest'>
+                    <div class='content'>
+                    <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Accuracy_Score_Updated.png" style="width:100%"></p>
+                    </div>
+                </div>      
+
+
+
+                <div class="column linearRegress">
+                    <div class='content'>
+                    <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Runtime%20OLS.png" style="width:100%"></p>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="column linearRegress">
                 <div class='content'>
                 <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Runtime%20%26%20IMDb.png" style="width:100%"></p>
-                <h6>Runtime/IMDb</h6>
                 </div>
             </div>
             <div class="column linearRegress">
                 <div class='content'>
                 <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Genres%20%26%20IMDb.png" style="width:100%"></p>
-                <h6>Runtime/IMDb</h6>
                 </div>
-            </div>
+            </div> -->
+
             <div class="column linearRegress">
                 <div class='content'>
                 <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/Directors%20%26%20IMDb.png" style="width:100%"></p>
                 </div>
             </div>
+
             <div class="column dataBase">
                 <div class='content'>
                 <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/ERD.png" style="width:100%"></p>
@@ -109,9 +113,10 @@
             <div class="column dataBase">
                 <img src="https://raw.githubusercontent.com/daytwu/Movies_Analysis/main/Images/postgres%20join%20statement.png" style="width:100%">
             </div>
+
+            <!-- </div> -->
         </div>
         
-        <h6>ERD and Postgres Database</h6>
 
 
 

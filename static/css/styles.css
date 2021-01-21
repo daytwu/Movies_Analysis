@@ -12,6 +12,12 @@ body {
     margin: auto;
 }
 
+img {
+    float: left;
+    width:  500px;
+    height: 500px;
+    object-fit: scale-down;
+}
 
 
 /* .columns{
@@ -37,22 +43,57 @@ h3 {text-decoration-line: underline;
     color: white; 
     font-size: 2em;}
 
-h4 {text-align: center; color:pink; font-size: 2em;}
-h5 {text-align: center; color:pink; font-size: 2em;}
-h6 {text-decoration-line: underline; text-align: center; color: white; font-size: 2em;}
+h4 {text-align: center; color:pink; font-size: 1.5em;}
+/* h5 {text-align: center; color:pink; font-size: 1.5em;}
+h6 {text-decoration-line: underline; text-align: center; color: white; font-size: 2em;} */ */
         
 
 .row,
-.row > .section {
+.row > .column {
     padding: 8px;
+    /* display: flex;
+    justify-content: center; */
 }
 
-.section {
-    float:center;
+.row {
+    display: flex;
+    justify-content: center;
 }
+
+
+
+/* #main {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: center;
+  } */
+  
+  /* #main div {
+    width: 70px;
+    height: 70px;
+  } */
+
+/* .section,
+.section > .column {
+    padding: 8px;
+/* } */
+
+/* .section {
+    text-align: justify;
+    align-items: center;
+    float: center;
+    width: 33.33%;
+    display: none;
+} */
 
 .column {
-    float: left;
+    /* float: left; */
+    /* position:absolute; left:1em; right:1em; */
+    /* display:inline-block; */
+    /* display: flex;
+    justify-content: center; */
     width: 33.33%;
     display: none;
 }
@@ -64,7 +105,8 @@ h6 {text-decoration-line: underline; text-align: center; color: white; font-size
 }
 
 .content {
-    background-color: white;
+    background-color: #3b3b63;   
+    /* background-color: white; */
     padding: 10px;
 }
 

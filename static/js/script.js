@@ -1,14 +1,22 @@
 filterSelection('all')
 function filterSelection(c) {
     // Declare your variables
-    var x, i;
+    var x_col, x_sec, i;
     // x is the column class name
-    x = document.getElementsByClassName('column');
+    x_col = document.getElementsByClassName('column');
     if (c == 'all') c = ''
-    for (i = 0; i < x.length; i++) {
-        RemoveClass(x[i], 'show');
-        if (x[i].className.indexOf(c) > -1) AddClass(x[i], 'show');
-    }
+    for (i = 0; i < x_col.length; i++) {
+        RemoveClass(x_col[i], 'show');
+        if (x_col[i].className.indexOf(c) > -1) AddClass(x_col[i], 'show');
+    };
+
+    x_sec = document.getElementsByClassName('section');
+    console.log(x_sec)
+    // if (c == 'all') c = ''
+    for (i = 0; i < x_sec.length; i++) {
+        RemoveClass(x_sec[i], 'show');
+        if (x_sec[i].className.indexOf(c) > -1) AddClass(x_sec[i], 'show');
+    };
 }
 
 function AddClass(element, name) {
