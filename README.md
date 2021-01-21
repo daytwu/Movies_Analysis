@@ -54,28 +54,20 @@ The analysis found that each of the following had a significant an impact on the
 - Genre
 - Directors
 
-The Regression Results below show some of the statistically-significant features of  IMDb movie ratings:
+The Regression Results below show some of the statistically-significant features of  IMDb movie ratings with and without placeholders:
 
-## RUNTIME:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20OLS.png>
+OLS with placeholders:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/OLS%20with%20PH.png>
 
-## GENRES:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20OLS.png>
+OLS without placeholders:
+<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/OLS%20without%20PH.png>
 
-## DIRECTORS:
-<img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20OLS%20.png>
-
-
-The following shows data plot and a linear regression model fit:
+The following shows data plot and a linear regression model fit for runtime:
 
 ## RUNTIME:
 <img src= https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Runtime%20%26%20IMDb.png>
 
-## GENRES:
-<img src = https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Genres%20%26%20IMDb.png>
 
-## DIRECTORS: 
-<img src = https://github.com/daytwu/Movies_Analysis/blob/Upama/Resources/Directors%20%26%20IMDb.png>
 
 
 
