@@ -14,9 +14,9 @@ body {
 
 img {
     float: left;
-    width:  500px;
+    width:  3000px;
     height: 500px;
-    object-fit:scale-down;
+    /* object-fit:scale-down; */
 }
 
 
@@ -63,7 +63,7 @@ h6 {text-decoration-line: underline; text-align: center; color: white; font-size
 
 .row {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 /* #main {
