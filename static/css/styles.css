@@ -16,8 +16,9 @@ img {
     float: left;
     width:  500px;
     height: 500px;
-    object-fit: scale-down;
+    object-fit:scale-down;
 }
+
 
 
 /* .columns{
@@ -49,18 +50,21 @@ h6 {text-decoration-line: underline; text-align: center; color: white; font-size
         
 
 .row,
-.row > .column {
-    padding: 8px;
+.row > .section {
+    padding: 3px;
     /* display: flex;
     justify-content: center; */
 }
+
+/* .row {
+    display: flex;
+    justify-content: center;
+} */
 
 .row {
     display: flex;
     justify-content: center;
 }
-
-
 
 /* #main {
     width: 400px;
@@ -94,8 +98,15 @@ h6 {text-decoration-line: underline; text-align: center; color: white; font-size
     /* display:inline-block; */
     /* display: flex;
     justify-content: center; */
+    padding: 8px;
     width: 33.33%;
     display: none;
+}
+
+.column:after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .row:after {
@@ -107,7 +118,7 @@ h6 {text-decoration-line: underline; text-align: center; color: white; font-size
 .content {
     background-color: #3b3b63;   
     /* background-color: white; */
-    padding: 10px;
+    padding: 3px;
 }
 
 .show {
