@@ -16,6 +16,12 @@ Any issues that arises and the proceeding problems that are troubleshooted are a
 Discussed, shared and reviewed datasets on Slack channel communications.
 These are done on the days of the zoom meetings, usually followed up on before and afterwards.
 
+## Link to Google Slides
+https://docs.google.com/presentation/d/1h6f_82QV0UMye0IdJa8el1R6y6pj0d5u8T-SoylsGtI/edit?usp=sharing
+
+## Link to Our Dashboard
+https://daytwu.github.io/Movies_Analysis/
+
 ## Source
 
 [Kaggle Movie_Data](https://www.kaggle.com/ruchi798/movies-on-netflix-prime-video-hulu-and-disney)
