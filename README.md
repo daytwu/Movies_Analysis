@@ -5,7 +5,6 @@
   Members
    - Dayton
    - Upama
-   - Montgomery
    
 ## Link to Our Dashboard
 https://daytwu.github.io/Movies_Analysis/
